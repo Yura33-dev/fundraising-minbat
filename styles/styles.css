@@ -1,0 +1,112 @@
+@import url("./reset.css");
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: linear-gradient(#234d26, #36793a);
+  color: white;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.fundraisers-header {
+  margin: 38px 0 26px 0;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.fundraisers-list {
+  margin-bottom: 50px;
+}
+
+.fundraisers-item {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 16px 16px;
+
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.item-header {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 28px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.item-image-wrapper {
+  height: 300px;
+  margin: 0 auto;
+}
+
+.item-image {
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-description {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.item-donate {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-donate-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 28px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.mono-donate {
+  margin-top: 28px;
+
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+
+  background-color: #232323;
+  border-radius: 10px;
+  padding: 5px;
+
+  position: relative;
+}
+
+.mono-donate span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.mono-donate img {
+  width: 40px;
+  height: 40px;
+}
+
+.qr-code {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
