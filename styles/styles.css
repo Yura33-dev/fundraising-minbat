@@ -4,6 +4,24 @@ body {
   font-family: "Overpass", sans-serif;
   background: linear-gradient(#234d26, #36793a);
   color: white;
+  position: relative;
+}
+
+.language-select {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  width: 60px;
+  padding: 5px;
+  border-radius: 6px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.language-select option {
+  background-color: #36793a;
 }
 
 .container {
@@ -12,8 +30,12 @@ body {
   padding: 0 15px;
 }
 
+.fundraisers {
+  padding: 50px 0;
+}
+
 .fundraisers-schevron {
-  margin: 38px auto 20px auto;
+  margin: 0 auto 20px auto;
   width: 50px;
 }
 
@@ -25,15 +47,10 @@ body {
   text-transform: uppercase;
 }
 
-.fundraisers-list {
-  margin-bottom: 50px;
-}
-
 .fundraisers-item {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  padding: 16px 16px;
-
+  padding: 16px;
   max-width: 450px;
   margin: 0 auto;
 }
@@ -58,11 +75,11 @@ body {
   object-fit: cover;
 }
 
-.item-description,
-.item-description-eng {
+.item-description {
   font-size: 16px;
   font-weight: 200;
   margin-top: 20px;
+  word-break: break-word;
 }
 
 .item-repost {
